@@ -79,8 +79,69 @@
             color: #fff;
         }
 
+        /* ========== UTILITY ========== */
+        .section-padding {
+            padding: 100px 0;
+        }
 
-        
+        .section-title-small {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--primary);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+
+        .section-title-main {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            line-height: 1.4;
+        }
+
+        .btn-custom {
+            padding: 12px 32px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            border: 2px solid transparent;
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-primary-custom {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+
+        .btn-primary-custom:hover {
+            background: var(--primary-dark);
+            border-color: var(--primary-dark);
+            color: #fff;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(255, 77, 77, 0.35);
+        }
+
+        .btn-outline-custom {
+            background: transparent;
+            color: var(--body-color);
+            border-color: var(--body-color);
+        }
+
+        .btn-outline-custom:hover {
+            background: var(--body-color);
+            color: var(--body-bg);
+            transform: translateY(-2px);
+        }
+
+
+
+        /* google fonts */
         .vazirmatn {
             font-family: "Vazirmatn", sans-serif;
             font-optical-sizing: auto;
